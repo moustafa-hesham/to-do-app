@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
         SplashScreen.iD: (context) => SplashScreen(),
         HomeScreen.id: (context) => HomeScreen(),
       },
-      initialRoute: SplashScreen.iD,
+      // initialRoute: SplashScreen.iD,
+      initialRoute: HomeScreen.id,
     );
   }
 }
